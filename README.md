@@ -45,7 +45,7 @@ Proyek ini dibuat untuk tugas akademik. Bukan untuk dijual. Sama seperti waktu d
 Tidak semua tugas diselesaikan dengan senyuman.
 Beberapa dikerjakan di tengah malam, ditemani rasa lelah, dan kadang disertai tanya: "Untuk apa semua ini?"
 Tapi tetap selesai, meski bukan yang terbaik.
-Karena menyerah bukan pilihan — walaupun keinginan itu sering datang.
+Karena menyerah bukan pilihan, walaupun keinginan itu sering datang.
 "Kadang, bukan tugasnya yang sulit. Tapi keadaan yang membuatnya terasa berat."
 "Terima kasih untuk kopi, hujan malam, dan semua rasa yang ikut menyelesaikan proyek ini." ☕
 "Jangan salahkan Tuhan jika keinginanmu tidak terwujud ❌, salahkan dirimu yang tak pernah bersujud 🙇‍♂️🕌🙏"
