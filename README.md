@@ -1,53 +1,51 @@
-# Portal Pembayaran Kamera 📷
+Portal Pembayaran Kamera 📷
 
-Proyek ini adalah website SPA (Single Page Application) sederhana untuk mensimulasikan sistem pembayaran dan pencatatan transaksi pembelian kamera. Website ini dikembangkan untuk memenuhi Ujian Akhir Semester mata kuliah Perancangan Web.
+Portal Pembayaran Kamera adalah sebuah website Single Page Application (SPA) sederhana yang dibuat untuk mensimulasikan proses pembayaran dan pencatatan transaksi pembelian kamera digital. Proyek ini dikerjakan sebagai bagian dari Ujian Akhir Semester pada mata kuliah Perancangan Web.
+Website ini dibangun bukan hanya sebagai tugas, tetapi juga sebagai bentuk tanggung jawab, meskipun dalam prosesnya penuh tantangan, rasa lelah, dan waktu tidur yang tergantikan oleh layar monitor.
 
-## 👤 Identitas Pengembang
+👤 Identitas Pengembang
+🏫 Institusi: Global Institute
+👨‍💻 Nama: Aditiya Surya Putra
+🆔 NIM: 11245160148
+📅 Tahun Akademik: 2025
 
-- 🏫 Institusi: Global Institute
-- 👨‍💻 Nama: Aditiya Surya Putra
-- 🆔 NIM: 11245160148
-- 📅 Tahun: 2025
+✨ Fitur Utama
+Meski sederhana, aplikasi ini dilengkapi dengan beberapa fitur:
+Form input pelanggan: nama, email, jenis kamera, jumlah, dan metode pembayaran
+Penerapan kode promo ANNIVCAMERA (diskon 10% berlaku Juni 2025).
+Transaksi tersimpan sementara tanpa backend — karena memang sederhana dan serba terbatas.
+Statistik yang menghitung angka, meskipun tak bisa menghitung usaha yang sudah diberikan.
+Responsif, mendukung dark/light mode — seperti suasana hati saat mengerjakan tugas ini.
+Warna biru mendominasi saat terang, oranye saat gelap — mencerminkan dua sisi perjalanan tugas ini.
+Logo pengguna muncul di header — wajah senyum palsu yang menyembunyikan letihnya mahasiswa.
 
-## ✨ Fitur Utama
+📸 Daftar Produk Kamera
+Produk yang bisa dipilih oleh pengguna hanyalah simulasi, seperti halnya harapan di tengah kesibukan:
 
-- Input data pelanggan: nama, email, jenis kamera, jumlah, dan metode pembayaran.
-- Penerapan kode promo khusus: `ANNIVCAMERA` (diskon 10% hanya berlaku Juni 2025).
-- Riwayat transaksi disimpan sementara di memori.
-- Statistik total transaksi, total pendapatan, dan rata-rata transaksi.
-- Tampilan responsif dan mendukung dark mode/light mode.
-- Desain dominan warna biru (light mode) dan oranye (dark mode).
-- Gambar profil/logo pengguna ditampilkan di header.
+Kamera Canon EOS R50
+Kamera Sony ZV-E10
+Kamera Fujifilm X-T30 II
+Harga: Rp 1.000.000 per unit — harga yang mungkin tak sebanding dengan harga begadang.
 
-## 📦 Struktur Proyek
+🎁 Kode Promo
+Kode: ANNIVCAMERA
+Diskon: 10%
+Berlaku: Hanya di bulan Juni 2025, dan mungkin hanya itu yang terasa ringan di antara beratnya beban tugas.
 
-tugasuasweb.11/
-├── index.html              
-├── styles.css              
-├── script.js               
-├── assets/                 
-│   ├── Canon EOS R6.jpg    
-│   └── logo.png            
+🛠️ Teknologi yang Digunakan
+HTML
+CSS (Tailwind via CDN)
+JavaScript (Vanilla)
+Tanpa framework, tanpa backend, hanya dengan waktu dan tekad yang perlahan menipis.
 
+📃 Lisensi
+Proyek ini dibuat untuk tugas akademik. Bukan untuk dijual. Sama seperti waktu dan tenaga yang habis untuk menyelesaikannya — hanya untuk dinilai, bukan dihargai.
 
-## 📸 Daftar Produk Kamera
-
-- Kamera Canon EOS R50
-- Kamera Sony ZV-E10
-- Kamera Fujifilm X-T30 II
-
-Harga simulasi produk: Rp 1.000.000 per unit
-
-## 🎁 Kode Promo
-
-Gunakan kode: `ANNIVCAMERA` untuk mendapatkan potongan 10%. Hanya berlaku selama bulan Juni 2025.
-
-## 🛠️ Teknologi Digunakan
-
-- HTML, CSS (Tailwind via CDN)
-- JavaScript (Vanilla)
-- Responsive Layout
-
-## 📃 Lisensi
-
-Proyek ini dibuat untuk tujuan pembelajaran dan tugas akademik. Tidak untuk keperluan komersial.
+😔 Penutup
+Tidak semua tugas diselesaikan dengan senyuman.
+Beberapa dikerjakan di tengah malam, ditemani rasa lelah, dan kadang disertai tanya: "Untuk apa semua ini?"
+Tapi tetap selesai, meski bukan yang terbaik.
+Karena menyerah bukan pilihan — walaupun keinginan itu sering datang.
+"Kadang, bukan tugasnya yang sulit. Tapi keadaan yang membuatnya terasa berat."
+"Terima kasih untuk kopi, hujan malam, dan semua rasa yang ikut menyelesaikan proyek ini." ☕
+"Jangan salahkan Tuhan jika keinginanmu tidak terwujud ❌, salahkan dirimu yang tak pernah bersujud 🙇‍♂️🕌🙏"
