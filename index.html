@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id" class="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal Pembayaran Kamera</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition duration-300">
+  <header class="flex items-center justify-between p-4 bg-blue-900 dark:bg-orange-600">
+    <div class="flex items-center space-x-4">
+      <img src="https:\Users\user\Pictures\Canon%20EOS%20R6.jpg" alt="Canon EOS R6" class="w-16 h-16 rounded" />
+    <div>
+        <h1 class="text-xl font-bold">Portal Pembayaran Kamera</h1>
+        <p class="text-sm">Global Institute<br>(NIM: 11245160148) - (Nama: Aditiya Surya Putra)</p>
+      </div>
+    </div>
+    <button id="toggleTheme" class="p-2 rounded bg-blue-900 text-black dark:bg-black dark:text-white">📸</button>
+  </header>
+
+  <main class="p-4 space-y-8 max-w-3xl mx-auto">
+
+    <section class="bg-gray-100 dark:bg-gray-800 p-4 rounded shadow">
+      <h2 class="text-lg font-semibold mb-4">Form Pembelian Kamera</h2>
+      <form id="paymentForm" class="space-y-3">
+        <input type="text" id="name" placeholder="Nama Pelanggan" class="w-full p-2 rounded border" required />
+        <input type="email" id="email" placeholder="Email" class="w-full p-2 rounded border" required />
+        <select id="product" class="w-full p-2 rounded border">
+          <option value="Kamera DSLR">Kamera DSLR</option>
+          <option value="Kamera Mirrorless">Kamera Mirrorless</option>
+          <option value="Kamera Action">Kamera Action</option>
+        </select>
+        <input type="number" id="quantity" placeholder="Jumlah" min="1" class="w-full p-2 rounded border" required />
+        <div class="flex space-x-4">
+          <label><input type="radio" name="payment" value="Transfer" required /> Transfer</label>
+          <label><input type="radio" name="payment" value="COD" /> COD</label>
+        </div>
+        <input type="text" id="promo" placeholder="Kode Promo (ANNIVCAMERA, hanya Juni 2025)" class="w-full p-2 rounded border" />
+        <button type="button" id="applyPromo" class="px-4 py-2 bg-blue-700 text-white rounded dark:bg-orange-500">Terapkan Promo</button>
+        <button type="submit" class="w-full py-2 bg-green-600 text-white rounded">Proses Pembayaran</button>
+      </form>
+    </section>
+
+    <section class="bg-gray-100 dark:bg-gray-800 p-4 rounded shadow">
+      <h2 class="text-lg font-semibold mb-4">Riwayat Transaksi</h2>
+      <p>Total Transaksi: <span id="totalTransactions">0</span></p>
+      <p>Total Pendapatan: Rp <span id="totalRevenue">0</span></p>
+      <p>Rata-rata Transaksi: Rp <span id="averageTransaction">0</span></p>
+      <table class="w-full mt-4 table-auto text-left">
+        <thead><tr><th>Nama</th><th>Produk</th><th>Jumlah</th><th>Metode</th><th>Total</th></tr></thead>
+        <tbody id="transactionTable" class="text-sm"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
