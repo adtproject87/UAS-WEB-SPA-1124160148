@@ -21,12 +21,14 @@ Proyek ini adalah website SPA (Single Page Application) sederhana untuk mensimul
 
 ## 📦 Struktur Proyek
 
-tugasuasweb.11
-   ├── index.html 
-   ├── styles.css 
-   ├── script.js 
-   └── assets/
-            └── Canon EOS R6.jpg
+tugasuasweb.11/
+├── index.html              
+├── styles.css              
+├── script.js               
+├── assets/                 
+│   ├── Canon EOS R6.jpg    
+│   └── logo.png            
+
 
 ## 📸 Daftar Produk Kamera
 
